@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM docker:stable
 
 RUN apk add --update --no-cache \
     bash \
